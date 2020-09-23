@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <script src="https://kit.fontawesome.com/1b49d7e787.js">
+        
+    </script>
+    <header id="header">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div class="profile-links">
+            <a href="https://github.com/mateusvictor" target="_blank" class="active"><i class="fab fa-github fa-lg"></i></a>
+            <a href="https://instagram.com/mateus.vts" target="_blank" class="active"><i class="fab fa-instagram fa-lg"></i></a>
+            
+            </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#welcome-section">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">Contat</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <section id="welcome-section">
+        <div>
+        <h1>Hello, World!</h1>
+        <p>Mateus Victor, Web Development</p>
+        </div>
+    </section>
+
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div id="grid-container">
+            <div class="row">
+                <div class="column project-title">
+                    <iframe height="265" style="width: 80%;" scrolling="no" title="oNxYEMK" src="https://codepen.io/mateusvictor/embed/preview/oNxYEMK?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                        See the Pen <a href='https://codepen.io/mateusvictor/pen/oNxYEMK'>oNxYEMK</a> by Mateus
+                        (<a href='https://codepen.io/mateusvictor'>@mateusvictor</a>) on <a href='https://codepen.io'>CodePen</a>.
+                      </iframe>
+                </div>
+                <div class="column">
+                    <iframe height="265" style="width: 80%;" scrolling="no" title="qBZqNXZ" src="https://codepen.io/mateusvictor/embed/preview/qBZqNXZ?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                        See the Pen <a href='https://codepen.io/mateusvictor/pen/qBZqNXZ'>qBZqNXZ</a> by Mateus
+                        (<a href='https://codepen.io/mateusvictor'>@mateusvictor</a>) on <a href='https://codepen.io'>CodePen</a>.
+                      </iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <iframe height="265" style="width: 80%;" scrolling="no" title="Fork Me! FCC: Test Suite Template" src="https://codepen.io/mateusvictor/embed/preview/MWyJYeW?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                        See the Pen <a href='https://codepen.io/mateusvictor/pen/MWyJYeW'>Fork Me! FCC: Test Suite Template</a> by Mateus
+                        (<a href='https://codepen.io/mateusvictor'>@mateusvictor</a>) on <a href='https://codepen.io'>CodePen</a>.
+                      </iframe>
+                </div>
+                <div class="column">
+                    <iframe height="265" style="width: 80%;" scrolling="no" title="xxVgdxY" src="https://codepen.io/mateusvictor/embed/preview/xxVgdxY?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+                        See the Pen <a href='https://codepen.io/mateusvictor/pen/xxVgdxY'>xxVgdxY</a> by Mateus
+                        (<a href='https://codepen.io/mateusvictor'>@mateusvictor</a>) on <a href='https://codepen.io'>CodePen</a>.
+                      </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
+    </script>
+</body>
+</html>

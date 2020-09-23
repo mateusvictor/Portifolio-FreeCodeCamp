@@ -1,0 +1,104 @@
+/* Style the navigation menu */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #060c33;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #060c33;
+    color: white;
+  }
+
+  h1 {
+      display: block;
+      font-size: 50px;
+        color: white;
+  }
+
+  h2 {
+      font-size: 40px;
+  }
+
+  #welcome-section {
+      height: 650px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-image: url("https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+
+  }
+
+#projects {
+    height: 650px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+h2 {
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.profile-links {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
